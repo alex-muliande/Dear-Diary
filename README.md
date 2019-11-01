@@ -1,12 +1,12 @@
-### Projectsview
+### Dear Diary
 ### Description
-##### Projectsview is a platform where users can display their projects for others to see, they can also  see other peoples Projects with the languages they have used. 
+##### Dear Diary is a platform where users can display their projects for others to see, they can also  see other peoples Projects with the languages they have used. 
 ### Author
 Alex Muliande
 
 
 ### Screenshot
-<img src="https://github.com/alex-muliande/projectsview/blob/master/Screenshot%20from%202019-10-25%2016-39-15.png" width="1000">
+<img src="https://github.com/alex-muliande/Dear Diary/blob/master/Screenshot%20from%202019-10-25%2016-39-15.png" width="1000">
 
 ### Requirements
 ##### These are the requirements you need to get the project running locally on your machine:
@@ -24,11 +24,11 @@ Alex Muliande
 ##### Open the command-line and run the following command to open a directory:
   - ```cd your preferred directory``` => ```cd Desktop```
 ##### Git clone the project on your current directory by:
-  - ```git clone https://github.com/alex-muliande/Projectsview.git```.
+  - ```git clone https://github.com/alex-muliande/Dear Diary.git```.
 ##### Open the project on your terminal:
   - ```atom . or code .``` , according to the type of your text editor.
 ##### Move to your project directory:
-  - ```cd Projectsview```.
+  - ```cd Dear Diary```.
 ##### Install virtual environment using python:
   - ```python3.6 -m venv virtual```, check your project to confirm you have a folder called virtual,
   - then activate it by running ```source virtual/bin/activate```

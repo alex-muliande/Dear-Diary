@@ -27,6 +27,7 @@ urlpatterns = [
     path('profile/', user_views.profile, name='profile'),
     path('logout/', auth_views.LogoutView.as_view( template_name='logout.html' ), name='logout'),
     path('', include('diary101.urls')),
+    path('', include('entries.urls'))
 ]
 
 if settings.DEBUG:
