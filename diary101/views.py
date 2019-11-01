@@ -4,6 +4,7 @@ from django.views.generic import CreateView,UpdateView,DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin,UserPassesTestMixin
 from django.contrib.auth.decorators import login_required
 from users.models import Profile
+from entries.models import Entry
 # from .forms import NeighbourhoodForm,BusinessForm,PostForm
 
 # Create your views here.
@@ -12,8 +13,10 @@ from users.models import Profile
 def index(request):
 
 
-    context= {
-        ""
+    entries = Entry.objects.order_by('-date_posted')
+    print('***')
+    context = {
+        'entries' : entries
     }
     
-    return render(request,'index.html',{})
+    return render(request,'index.html',context)
