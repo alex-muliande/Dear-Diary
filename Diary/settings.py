@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'entries.apps.EntriesConfig',
     'diary101.apps.Diary101Config',
     'crispy_forms',
     'users.apps.UsersConfig',
@@ -168,7 +169,7 @@ MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-LOGIN_REDIRECT_URL = 'projects-index'
+LOGIN_REDIRECT_URL = 'index'
 LOGIN_URL = 'login'
 
 django_heroku.settings(locals())
